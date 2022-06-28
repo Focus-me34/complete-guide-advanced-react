@@ -35,5 +35,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Focus-me34/complete-guide-advanced-react.git"
+  },
+  "author": "Amin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Focus-me34/complete-guide-advanced-react/issues"
+  },
+  "homepage": "https://localhost:3000",
+  "description": ""
 }
