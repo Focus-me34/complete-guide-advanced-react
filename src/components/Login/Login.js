@@ -72,6 +72,7 @@ const Login = () => {
   return (
     <Card className={classes.login}>
       <form onSubmit={submitHandler}>
+
         <Input type="email" id="email" value={emailState.value} isValid={emailIsValid} onChange={emailChangeHandler} onBlur={validateEmailHandler}></Input>
         <Input type="password" id="password" value={passwordState.value} isValid={passwordIsValid} onChange={passwordChangeHandler} onBlur={validatePasswordHandler}></Input>
 
